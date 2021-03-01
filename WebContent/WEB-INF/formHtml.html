@@ -1,0 +1,41 @@
+<!DOCTYPE html>
+<html>
+	<head>
+		<meta charset="EUC-KR">
+		<title>Insert title here</title>
+	</head>
+	<body>
+		<form action="">
+			<fieldset>
+				<legend>상품 선택</legend>
+				<legend>여기 에입력하면?</legend>
+				<legend>여기 에입력하면?</legend>
+			</fieldset>
+			<fieldset>
+				<legend>배송 정보</legend>
+			</fieldset>
+		</form>
+		
+		<lable>아이디 6자 이상<input type="text"></lable>
+		<br>
+		<lable for="chanwan">아이디(6자 이상)</lable>
+		<input type="text" id="chanwan" value="초기값">
+		<form>
+			<fieldset>
+				<legend>상품을 선택해라</legend>
+				<p><strong>주문할 상품 선택</strong></p>
+				<lable><input type="checkbox" value="s+3">선물용 3kg</lable>
+				<lable><input type="checkbox" value="s+5">선물용 5kg</lable>
+				<input type="number" min="0" max="100" value="1">개(최대 5개)
+				<p>포장 선택</p>
+				<lable><input type="radio" name="gift" value="yes">선물 포장</lable>
+				<lable><input type="radio" name="gift" value="no">포장 안함</lable>
+				<input type="week">
+				<input type="button" value="test" onclick="window.open('file:///D:/eclipse-jee-2020-12-R-win32-x86_64/eclipse/git/HtmlCssJs/WebContent/WEB-INF/ImgHtml.html')">
+				<input type="tel" id="phone" placeholder="전화번호 입력해라">
+				<input type="text" autofocus required>
+				<input type="submit" value="주문하기">
+			</fieldset>
+		</form>
+	</body>
+</html>
