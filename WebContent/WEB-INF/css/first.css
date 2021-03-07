@@ -14,3 +14,15 @@ h1 {
 #this {
 	border: 1px solid #000;
 }
+
+.a1 {
+	color: rgba(0, 255, 255, 0.1);
+}
+
+.bb{
+	color:blue;
+}
+
+#a2 {
+	color: rgb(0, 255, 255);
+}
